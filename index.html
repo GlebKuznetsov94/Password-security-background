@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.8.11/tailwind.min.css"/>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Password strength background</title>
+  </head>
+  <body>
+    <div class="background" id="background"></div>
+    <div class="bg-white rounded p-10 text-center shadow-md">
+      <h1 class="text-3xl">Введите логин и пароль</h1>
+      <p class="text-sm pt-1 text-gray-700">Чем безопаснее пароль, тем лучше видно изображение</p>
+      <div class="my-4 text-left">
+        <label for="email" class="text-gray-900">Email:</label>
+        <input type="text" name="email" id="email" class="border block w-full p-2 mt-2 rounded" placeholder="Введите email"/>
+      </div>
+      <div class="my-4 text-left">
+        <label for="password" class="text-gray-900">Пароль:</label>
+        <input type="password" name="password" id="password" class="border block w-full p-2 mt-2 rounded" placeholder="Введите пароль"/>
+      </div>
+      <button type="submit" class="bg-black text-white py-2 mt-4 inline-block w-full rounded">Зарегистрироваться</button>
+    </div>
+    <div class="credit">© Strawberry.inc🍓</div>
+    <script src="script.js"></script>
+  </body>
+</html>
